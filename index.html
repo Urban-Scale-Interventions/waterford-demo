@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tailwind CSS -->
+    <link href="style.css" rel="stylesheet">
+    <title>Waterford Trail Demo</title>
+
+      <!--Icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+  integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!--Fonts-->
+    <style>
+      @font-face {
+    font-family: open-sans;
+    src: url('assets/fonts/static/OpenSans/OpenSans-Regular.ttf') format('truetype'),
+      url('assets/fonts/static/OpenSans/OpenSans-Bold.ttf') format('truetype'),
+      url('assets/fonts/static/OpenSans/OpenSans-ExtraBold.ttf') format('truetype');
+  }
+    </style>
+  </head>
+  <body >   
+        <!--Landing page-->
+        <section class="w-full h-full">
+          <div class="container mx-auto w-6/6 lg:w-5/6 py-24">
+            <h2 class="text-2xl font-bold py-6 px-6 lg:px-0 w-3/6 " style="color: white;">
+              This is a demo page to show a possible design for Waterford Trail.<br><br>
+              Click on Reginald's Tower to experience a small AR demo:
+              </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-32 lg:gap-4 py-16 text-center">
+              <a href="https://webxr.run/xDlxkJz7RrN5k" type="button">
+                <div data-aos="fade-right"
+                data-aos-anchor-placement="top-bottom" data-aos-duration="2000" class="rounded-full h-32 w-32 bg-blue-100 hover:bg-opacity-100 mx-auto">
+                  <div class="transition duration-500 ease-in-out transform hover:scale-105 motion-reduce:transform-none p-16 rounded-full mx-auto ring ring-blue-100" style="background-image:url('https://ik.imagekit.io/5y988hvt8sd/Waterford/Mask_Group_DV7eCYmeX.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644854407961'); background-position: center; background-repeat: no-repeat; background-size: contain; cursor: pointer;">
+                  </div>
+                  <h3 class="text-3xl mt-4 text-white">Reginald's Tower</h3>
+                </div>
+              </a>
+
+              <button type="button" >
+                <div data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" data-aos-duration="2000" class="rounded-full h-32 w-32 bg-blue-100 hover:bg-opacity-100 mx-auto">
+                  <div class="transition duration-500 ease-in-out transform hover:scale-105 motion-reduce:transform-none p-16 rounded-full mx-auto ring ring-blue-100" style="background-image: url(https://ik.imagekit.io/5y988hvt8sd/Waterford/Group_4_O7AVo0egZ2z.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644854560503); background-position: center; background-repeat: no-repeat; background-size: contain; cursor: pointer;">
+                  </div>
+                  <h3 class="text-3xl mt-4 text-white">The Apple Market</h3>
+                </div>
+              </button>
+
+              <button type="button" >
+                <div data-aos="fade-down"
+                data-aos-anchor-placement="top-bottom" data-aos-duration="2000" class="rounded-full h-32 w-32 bg-blue-100 hover:bg-opacity-100 mx-auto">
+                  <div class="transition duration-500 ease-in-out transform hover:scale-105 motion-reduce:transform-none p-16 rounded-full mx-auto ring ring-blue-100" style="background-image: url(https://ik.imagekit.io/5y988hvt8sd/Waterford/Mask_Group__1__lIfQXj5Uu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644854551184); background-position: center; background-repeat: no-repeat; background-size: contain; cursor: pointer;">
+                  </div>
+                  <h3 class="text-3xl mt-4 text-white">The Mall</h3>
+                </div>
+              </button>
+            </div>
+          </div>
+        </section>
+ 
+     
+        
+        
+
+
+   
+      </main>
+
+    </div>
+  </div>
+</div>
+
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+          <script src="assets/js/jquery.event.move.js"></script>
+          <script src="assets/js/jquery.twentytwenty.js"></script>
+          <script>
+          $(function(){
+            $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
+            $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.5, orientation: 'vertical'});
+          });
+          </script>
+
+          <script src="assets/js/quoteslider.js"></script>
+
+
+   <!--AOS-->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
+
+  </body>
+</html>
